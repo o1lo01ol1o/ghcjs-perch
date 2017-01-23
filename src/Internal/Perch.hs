@@ -25,7 +25,7 @@ import           Unsafe.Coerce          (unsafeCoerce)
 
 --------------------------------------------------------------------------------
 #ifndef ghcjs_HOST_OS
-pack = undefined
+pack = Prelude.id
 #endif
 
 newtype PerchM a =

@@ -54,7 +54,7 @@ library
   ghc-options: -Wall -fno-warn-unused-do-bind
 
   if impl(ghcjs >= 0.1)
-     build-depends:       ghcjs-base
+     build-depends:       ghcjs
 
 
 source-repository head
